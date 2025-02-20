@@ -7,7 +7,7 @@ public class BulletMovement : MonoBehaviour
     // Start is called before the first frame update
     private GameObject player;
     private Rigidbody2D rb;
-    public float speed = 200;
+    public float speed = 400;
     public float lifeTime = 3;
     private float time = 0;
     private Vector2 relativeDirection;
