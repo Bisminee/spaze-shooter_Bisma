@@ -2,6 +2,8 @@ using UnityEngine;
 
 
 public class Shoot: MonoBehaviour{
+
+    public GameObject [] weapon;
     public GameObject bulletPrefab;
     private PlayerInput playerInput;
 
