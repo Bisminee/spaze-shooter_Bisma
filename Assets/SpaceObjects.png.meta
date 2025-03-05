@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2cc82fad182e2d5408e22c4ce789c28a
+guid: c83b232b43234fb42831ffe43b3a9036
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alan (16 x 16)_0
+      name: SpaceObjects_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 224
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a8f8ab5208e3514bb7bce0190372ed5
-      internalID: 1432667269
+      spriteID: 33f0ba0d632ffc444b1f71f1bf5d05cd
+      internalID: -687295810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alan (16 x 16)_1
+      name: SpaceObjects_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 238
         y: 0
-        width: 16
-        height: 16
+        width: 87
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 114bb40385e02a540a2f39a33496bf00
-      internalID: 1877786158
+      spriteID: bce46aea25cd64f4380979fd6dfb2e28
+      internalID: -48248476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alan (16 x 16)_2
+      name: SpaceObjects_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51c19c19e7e2b74690f7593157ff50d
+      internalID: -120212870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 80
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eda6152f7d1ba4c86d555fafb9ca12
+      internalID: 1393594288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 81
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fb9683095429e439dde5978f34f5f8
+      internalID: -1049617569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 82
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103ec3caacbd6b24aabf721061d088bd
+      internalID: -563030677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 86
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5473f8eb013ffb345a142b080cf86903
+      internalID: -3695272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 104
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb833df4f8ee8f6489bcfd2081195dbc
+      internalID: 1793390620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 81
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17fff738cb02247b18a534a96e2218
+      internalID: -1475509803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceObjects_9
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
-        width: 16
-        height: 16
+        y: 80
+        width: 49
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5611e56fb9e04549a39ed72c4dd01a5
-      internalID: 1264376842
+      spriteID: 6d312fcbb8d68b24caa1b67f319adcd3
+      internalID: -1960434486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alan (16 x 16)_3
+      name: SpaceObjects_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
+        x: 5
+        y: 85
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,50 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4399cc25e2958b4e9753cd78d62521c
-      internalID: 1307606247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alan (16 x 16)_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 924973c1381a5414abba9d46459cd189
-      internalID: -1330577408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alan (16 x 16)_5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e24a2897ccff0d43b0eb8a7d82487e3
-      internalID: 131386494
+      spriteID: 3a3198dfec813b9419532c3a189557b3
+      internalID: -924448363
       vertices: []
       indices: 
       edges: []
@@ -246,12 +351,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alan (16 x 16)_0: 1432667269
-      Alan (16 x 16)_1: 1877786158
-      Alan (16 x 16)_2: 1264376842
-      Alan (16 x 16)_3: 1307606247
-      Alan (16 x 16)_4: -1330577408
-      Alan (16 x 16)_5: 131386494
+      SpaceObjects_0: -687295810
+      SpaceObjects_1: -48248476
+      SpaceObjects_10: -924448363
+      SpaceObjects_2: -120212870
+      SpaceObjects_3: 1393594288
+      SpaceObjects_4: -1049617569
+      SpaceObjects_5: -563030677
+      SpaceObjects_6: -3695272
+      SpaceObjects_7: 1793390620
+      SpaceObjects_8: -1475509803
+      SpaceObjects_9: -1960434486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 726256e361767a5488b3b43db6a9b9a5
+guid: 8a4b37594dd38bc4a868181f1cbf22e6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -110,34 +110,42 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bon_Bon (16 x 16)_0
+      name: space_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 4
-        width: 14
-        height: 8
+        x: 0
+        y: 0
+        width: 1920
+        height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: 0, y: -270}
+        - {x: 960, y: 0}
+        - {x: 0, y: 270}
+        - {x: -960, y: 0}
+      physicsShape:
+      - - {x: 0, y: -270}
+        - {x: 960, y: 0}
+        - {x: 0, y: 270}
+        - {x: -960, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 528aabe9b6af56241aec1376b19628dc
-      internalID: 686301020
+      spriteID: 8d7510765d652dd48bdac7eafceff0c2
+      internalID: 129945330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bon_Bon (16 x 16)_1
+      name: space_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 5
-        width: 12
-        height: 6
+        x: 0
+        y: 0
+        width: 1920
+        height: 539
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7bebccbeff5c84bb9ca5de16180f0d
-      internalID: 1461271606
+      spriteID: e2638db931580f0449c2aa833c40dde6
+      internalID: -183466286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bon_Bon (16 x 16)_2
+      name: space_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 5
-        width: 10
-        height: 6
+        x: 0
+        y: 0
+        width: 1919
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,29 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cf3bf23d66c72f4580159e7bb212f2b
-      internalID: 868148612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bon_Bon (16 x 16)_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 3
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6f14fb1d75d520469937a7f7768dd7b
-      internalID: -1226199726
+      spriteID: bf068a9b8e6081242b30385fb6ac8089
+      internalID: 590705134
       vertices: []
       indices: 
       edges: []
@@ -204,10 +191,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bon_Bon (16 x 16)_0: 686301020
-      Bon_Bon (16 x 16)_1: 1461271606
-      Bon_Bon (16 x 16)_2: 868148612
-      Bon_Bon (16 x 16)_3: -1226199726
+      space_0: 129945330
+      space_1: -183466286
+      space_2: 590705134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
