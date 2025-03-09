@@ -5,11 +5,10 @@ using UnityEngine;
 public class GetDamage : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
-    public Color hitColor = Color.red; // Warna saat tertabrak
+    public Color hitColor = Color.red; // Warna saat terkena damage
     private Color originalColor;
     public float colorChangeDuration = 0.5f; // Durasi warna berubah
-
-    public GameObject[] Weapon;
+    public float damageAmount = 10f; // Besar damage
 
     void Start()
     {
@@ -22,7 +21,12 @@ public class GetDamage : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        StartCoroutine(ChangeColorTemporarily());
+        HealthEntity health = GetComponent<HealthEntity>();
+        if (health != null)
+        {
+            health.TakeDamage(damageAmount);
+            StartCoroutine(ChangeColorTemporarily());
+        }
     }
 
     IEnumerator ChangeColorTemporarily()

@@ -16,8 +16,18 @@ public class BulletMovement : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
-        relativeDirection = player.GetComponent<Rotate>().RelativeDirection;
+
+        Rotate rotateComponent = player.GetComponent<Rotate>();
+        if (rotateComponent != null)
+        {
+            relativeDirection = rotateComponent.RelativeDirection;
+        }
+        else
+        {
+            relativeDirection = Vector2.up; // Default arah ke atas jika Rotate tidak ditemukan
+        }
     }
+
 
     // Update is called once per frame
     void Update()

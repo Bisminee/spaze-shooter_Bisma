@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Drive : MonoBehaviour
 {
-    PlayerInput moveInput;
     private Rigidbody2D rb;
     private PlayerInput playerInput;
     private Animator animator;
